@@ -1,0 +1,9 @@
+* diff=git-crypt filter=git-crypt
+
+/**/Cargo.lock !diff !filter
+/**/Cargo.toml !diff !filter
+/.envrc !diff !filter
+/.gitattributes !diff !filter
+/.gitignore !diff !filter
+/flake.nix !diff !filter
+/flake.lock !diff !filter
